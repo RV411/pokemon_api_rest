@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Righteous', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.pokemon-grid{
+    display: grid;
+    grid-gap: 16px;
+    padding: 20px;
+    grid-template-columns: repeat(auto-fit,minmax(23%,1fr));
+}
