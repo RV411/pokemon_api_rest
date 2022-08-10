@@ -35,12 +35,6 @@
 
 ##
 
-> ## Se crea la pagina web
-> Funcionamiento de la pagina web haciendo uso del servidor que usa un API.
->> ![final](https://user-images.githubusercontent.com/23283111/183946707-63f7de78-a27c-4b98-a499-e5205c224681.png)
-
-##
-
 > ## Crear la imagen del Servidor de SpringBoot
 > - Se crea el Dockerfile con los requerimientos del proyecto
 >> ![dockerfile](https://user-images.githubusercontent.com/23283111/184023145-66165e68-ddb7-420c-a3ea-d851d2223afd.png)
