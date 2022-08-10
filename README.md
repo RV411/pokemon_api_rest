@@ -2,18 +2,32 @@
 
 ## DOCUMENTACIÓN
 
-> ## Creacion de proyectos para el Server y la Pagina Web
-Se crean los proyectos con la herramienta de spring.io para el servidor y para el frontend con node_modules
->>Server
-![1createspring](https://user-images.githubusercontent.com/23283111/183775604-8d6b9d83-6d43-4474-910d-21198b6813a1.png)
->>Pagina Web
-![1createapp](https://user-images.githubusercontent.com/23283111/183775584-04dd4a2a-4149-49ae-951b-fa62cf57f9b7.png)
+> ## Definir mensajes de entrada y salida para usar el API
+> - Ver el tipo de dato de salida del api 
+>> ![2datosAPI](https://user-images.githubusercontent.com/23283111/183944090-f76fb745-bcaf-4ad7-aa78-89a120950fb1.png)
 
-##
+> - Definir la entra y salida de los datos en el servicio del Servidor
+>> ![in_out](https://user-images.githubusercontent.com/23283111/183944297-8acaf055-c59d-4208-8ebe-93c0f53922cb.png)
+
+> ## Usar Cliente REST en el API
+> - Se usara a travez de la siguente URL **https://pokeapi.co/api/v2/pokemon?limit=100** de donde obtendremos a 100 pokemones
+>> ![respAPI_postman](https://user-images.githubusercontent.com/23283111/183945782-56615d87-502f-48d8-a14a-d92ed8658284.png)
+> - Se usara a travez de la siguente URL **https://pokeapi.co/api/v2/pokemon/1** donde el 1 indica el id del pokemon
+>> ![respAPI_postman3](https://user-images.githubusercontent.com/23283111/183945971-07e8ce54-4bed-443e-a5ae-d5eafd8a4b15.png)
+
+> ## Se usara este servidor en una pagina web
+> - Se configura el servidor
+>> ![61](https://user-images.githubusercontent.com/23283111/183946224-cb191fa5-86bf-49a0-8dc3-11e77bb0d3a3.png)
+> - Se configura el servicio de la pagina web
+>> ![servicio_angular](https://user-images.githubusercontent.com/23283111/183946315-b40d38c6-9c22-4c21-b59f-5530bf9a0057.png)
+> - se prueba que los datos se obtengan
+> ![4consultaweb](https://user-images.githubusercontent.com/23283111/183946457-6b9617ca-f80f-4b02-bfb0-6a840ad9aa9d.png)
+
+> ## Se crea la pagina web
+> Funcionamiento de la pagina web haciendo uso del servidor que usa un API.
+>> ![final](https://user-images.githubusercontent.com/23283111/183946707-63f7de78-a27c-4b98-a499-e5205c224681.png)
 
 
-![2createCompHeader](https://user-images.githubusercontent.com/23283111/183775608-93129c73-50e7-4239-bc84-aec8f7704301.png)
-![2index](https://user-images.githubusercontent.com/23283111/183775611-f876ea3c-13b0-4323-8ff3-d4e2af318b46.png)
 
 
 
